@@ -15,10 +15,10 @@ makeCacheMatrix <- function(x = matrix()) {
     get <- function() {
         x
     }
-    setmean <- function(inverse) {
+    setinverse <- function(inverse) {
         i <<- inverse
     }
-    getmean <- function() {
+    getinverse <- function() {
         i
     }
     
